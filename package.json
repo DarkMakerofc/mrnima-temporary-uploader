@@ -1,7 +1,7 @@
 {
   "name": "mrnima-temporary-uploader",
   "version": "1.0.0",
-  "description": "Temporary file hosting unofficial  package, by mrnima. ",
+  "description": "Temporary file hosting and temporaray direct link generator unofficial  package, by mrnima.",
   "main": "index.js",
   "scripts": {
     "test": "node test"
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/DarkMakerofc/mrnima-temporary-uploader#readme",
   "dependencies": {
+    "axios": "^1.7.7",
     "file-type": "^16.5.4",
     "form-data": "^4.0.0",
     "fs": "^0.0.1-security",
